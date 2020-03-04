@@ -1,3 +1,4 @@
 # Resume
-![](images/Resume%20_%20Gabriel%20Mejia.png)
+![](images/Gabriel's%20Resume.png)
+
 https://gmejia8.github.io/Resume/
