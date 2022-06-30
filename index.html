@@ -1,134 +1,250 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8" />
-<title>Resume | Gabriel Mejia</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-<link href="css/resume.css" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <title>Resume | Gabriel Mejia</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico"
+      rel="stylesheet"
+    />
+    <link href="css/resume.css" rel="stylesheet" />
 
-<script type='text/javascript'>
-document.addEventListener("keypress",function(e) {
-	if(e.key === '~') {
-		var documentRoot = document.documentElement;
-		var sectionElem = document.querySelector('body section');
-		var className = documentRoot.className;
-		if(!className || className == null || className == '' || className == 'hr'){
-			documentRoot.className = 'printerFriendly';
-			sectionElem.className = 'printerFriendly';
-		} else {
-			documentRoot.removeAttribute("class");
-			sectionElem.removeAttribute("class");
-		}
-	}
-});
-</script>
+    <script type="text/javascript">
+      document.addEventListener("keypress", function (e) {
+        if (e.key === "~") {
+          var documentRoot = document.documentElement;
+          var sectionElem = document.querySelector("body section");
+          var className = documentRoot.className;
+          if (
+            !className ||
+            className == null ||
+            className == "" ||
+            className == "hr"
+          ) {
+            documentRoot.className = "printerFriendly";
+            sectionElem.className = "printerFriendly";
+          } else {
+            documentRoot.removeAttribute("class");
+            sectionElem.removeAttribute("class");
+          }
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <section class="center">
+      <div class="container">
+        <h4 class="light">Gabriel Mejia</h4>
+        <p>
+          <i class="material-icons">email</i>
+          <a href="mailto:gabrieljrmejia@yahoo.com">gabrieljrmejia@yahoo.com</a>
+          <span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>
+          <i class="material-icons">phone</i> (209) 349-2699
+          <span class="hide-on-med">&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>
+          <br class="show-on-med" />
+          <img
+            class="github-icon"
+            src="images/personal.svg"
+            alt="Website Logo"
+          />
+          &nbsp;<a href="https://gabrielmejia.dev/">gabrielmejia.dev</a
+          ><span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>
+          <img
+            class="github-icon"
+            src="images/linkedin-black.svg"
+            alt="linkedIn Logo"
+          />
+          &nbsp;<a href="https://www.linkedin.com/in/gabriel-mejia-366811178/"
+            >linkedIn/gabriel-mejia</a
+          ><span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>
+          <img
+            class="github-icon"
+            src="images/github-black.svg"
+            alt="Github Logo"
+          />
+          &nbsp;<a href="https://github.com/gmejia8">github/gmejia8</a>
+        </p>
 
-</head>
-<body>
+        <!-- Objective-->
+        <h5 class="left-align">Objective</h5>
+        <hr />
+        <p class="left-align">
+          Seeking a position in the field of Computer Science &amp; Engineering
+          with emphasis in web programming and information systems.
+        </p>
 
-<section class="center">
-	<div class="container">
+        <!-- Education -->
+        <h5 class="left-align">Education</h5>
+        <hr />
+        <p class="left-align right">Graduation: December 2020</p>
+        <p class="bold left-align">University of California, Merced</p>
+        <p class="bold left-align">
+          Bachelors in Computer Science &amp; Engineering
+        </p>
 
-		<h4 class="light">Gabriel Mejia</h4>
-		<p>
-			<i class="material-icons">email</i> <a href="mailto:gabrieljrmejia@yahoo.com">gabrieljrmejia@yahoo.com</a> <span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>
-			<i class="material-icons">phone</i> (209) 349-2699 <span class="hide-on-med">&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>
-			<br class="show-on-med">
-			<img class="github-icon" src="images/personal.svg" alt="Website Logo"> &nbsp;<a href="https://gabrielmejia.dev/">Personal Website</a><span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>
-			<img class="github-icon" src="images/linkedin-black.svg" alt="linkedIn Logo"> &nbsp;<a href="https://www.linkedin.com/in/gabriel-mejia-366811178/">linkedIn/gabriel-mejia</a><span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>
-			<img class="github-icon" src="images/github-black.svg" alt="Github Logo"> &nbsp;<a href="https://github.com/gmejia8">github/gmejia8</a>
-		</p>
-
-		<!-- Objective-->
-		<h5 class="left-align">Objective</h5>
-		<hr>
-		<p class="left-align">Seeking a position in the field of Computer Science &amp; Engineering with emphasis in web programming and information systems.</p>
-
-		<!-- Education -->
-		<h5 class="left-align">Education</h5>
-		<hr>
-		<p class="left-align right">Graduation:  December 2020</p>
-		<p class="bold left-align">University of California, Merced</p>
-		<p class="bold left-align">Bachelors in Computer Science &amp; Engineering</p>
-		<p class="left-align">Relevant Coursework: Algorithm Design and Analysis, Software Engineering, Database Systems,</p>
-		<p class="pad-left-179 left-align">Artificial Intelligence, Operating Systems, Computer Vision, Circuit Theory</p>
-
-		<!-- Technical Skills -->
-		<h5 class="left-align">Technical Skills</h5>
-		<hr>
-		<p class="bold left-align">Languages/Markups</a></p>
-		<ul class="pad-left-50 left-align">
-			<li class="left-align">JavaScript(React), HTML, CSS, Python, C/C++, Java, SQLite, Matlab</li>
-		</ul>
-		<p class="bold left-align">Operating Systems/Software</a></p>
-		<ul class="pad-left-50 left-align">
-            <li class="left-align">Linux (Debian, Ubuntu), Windows, Mac, Git/Github, VSCode, all Adobe Creative Suite products</li>
-		</ul>
-		
-		<!-- Experience -->
-		<h5 class="left-align">Experience</h5>
-		<hr>
-		<p class="left-align right">July 2021 - Present</p>
-		<p class="bold left-align">Apple Software Developer CE(Front End, Apple Maps Data) - Apple</p>
+        <p class="bold left-align">Relevant Coursework</p>
         <ul class="pad-left-50 left-align">
-			<li>Develop Front End user interface for apple internal web pages</li>
-			<li>Utilize modern programming languages, Javascript, HTML, CSS, Node, React</li>
-			<li>Interacting with the back end api for user authentication and admin privileges</li>
-		</ul>
- 		<p class="left-align right">July 2018 - July 2021</p>
-		<p class="bold left-align">Apple Technical Support(Mac OS, IOS) - Apple</p>
+          <li class="left-align">
+            Algorithm Design and Analysis, Software Engineering, Database
+            Systems, Artificial Intelligence, Operating Systems, Computer
+            Vision, Circuit Theory
+          </li>
+        </ul>
+
+        <!-- Technical Skills -->
+        <h5 class="left-align">Technical Skills</h5>
+        <hr />
+        <p class="bold left-align">Languages/Markups</p>
         <ul class="pad-left-50 left-align">
-			<li>Installing software, hardware, &amp; performing system updates at the OS &amp; bios level</li>
-			<li>Configuring customer apple id &amp; icloud accounts for data management and secure payment authentications</li>
-			<li>Installing customer emails, network printers, VPN, &amp; coordinate service options for hardware related issues</li>
-		</ul>
+          <li class="left-align">
+            JavaScript(React), HTML, CSS, Python, C/C++, Java, SQLite, Matlab
+          </li>
+        </ul>
+        <p class="bold left-align">Operating Systems/Software</p>
+        <ul class="pad-left-50 left-align">
+          <li class="left-align">
+            Windows, Mac, Linux (Debian, Ubuntu), Git/Github, VSCode, all
+            Microsoft Suite Products
+          </li>
+        </ul>
+
+        <!-- Experience -->
+        <h5 class="left-align">Experience</h5>
+        <hr />
+        <p class="left-align right">July 2018 - Present</p>
+        <p class="bold left-align">
+          Apple Technical Support(Mac OS, IOS) - Apple
+        </p>
+        <ul class="pad-left-50 left-align">
+          <li>
+            Installing software, hardware, &amp; performing system updates at
+            the OS &amp; bios level.
+          </li>
+          <li>
+            Configuring customer apple id &amp; icloud accounts for data
+            management and secure payment authentications.
+          </li>
+          <li>
+            Installing customer emails, network printers, VPN, &amp; coordinate
+            service options for hardware related issues.
+          </li>
+        </ul>
+        <p class="left-align right">July 2021 - November 2021</p>
+        <p class="bold left-align">
+          Apple Software Developer CE(Front End, Apple Maps Data) - Apple
+        </p>
+        <ul class="pad-left-50 left-align">
+          <li>
+            Developed Front End user interfaces for apple internal web pages.
+          </li>
+          <li>
+            Utilize modern programming languages, Javascript, HTML, CSS, Node,
+            React.
+          </li>
+          <li>
+            Interacted with the back end api for user authentication and admin
+            privileges.
+          </li>
+        </ul>
+        <p class="left-align right">July 2016 - January 2018</p>
+        <p class="bold left-align">
+          Site Lead / Management - California Teaching Fellows Foundation
+        </p>
+
+        <ul class="pad-left-50 left-align">
+          <li>
+            Coordinated and supervised the designated after school program site
+            Chowchilla Middle School and El Capitan High School.
+          </li>
+          <li>
+            Focused on Marketing programing and data entries. Monitored and
+            Managed various classrooms/clubs. Managed budgeting, purchase orders
+            and supplies.
+          </li>
+          <li>
+            Attended frequent meetings with staff, Superintendents, Principles,
+            Vice Principals, and Supervisors while performing presentations of
+            future milestones and goals.
+          </li>
+        </ul>
+
+        <!-- Independent Projects -->
+        <h5 class="left-align">Independent Projects</h5>
+        <hr />
+        <p class="left-align right">January 2020 - Present</p>
+        <p class="bold left-align">
+          Vehicle Recognition Automatic Garage Opener
+        </p>
+        <ul class="pad-left-50 left-align">
+          <li>
+            Rasberry Pi driven vehicle recognition that verifies your license
+            plate and other programmed verifications to trigger your garage door
+            to open.
+          </li>
+          <li>Languages: Python, Node-Red</li>
+          <li>Frameworks/Libraries: OpenALPR</li>
+        </ul>
+        <p class="left-align right">November 2019 - January 2020</p>
+        <p class="bold left-align">
+          Highly Advanced Car Alarm for 90's Vehicle
+        </p>
+        <ul class="pad-left-50 left-align">
+          <li>
+            Installed a fully functional car alarm in a 1992 Nissan 240sx that
+            has passive keyless entry, push button start, remote start, and door
+            opening alerts.
+          </li>
+          <li>
+            Hardware: Uninterruptible 12v Source, 5 pin Circuit Relays, PKE
+            Sensors, Shock Sensors, Siren, Control Module
+          </li>
+        </ul>
         <p class="left-align right">August 2019 - December 2019</p>
-		<p class="bold left-align">Software Engineer - Valley Children's Hospital</p>
+        <p class="bold left-align">Visual Acuity Web App</p>
         <ul class="pad-left-50 left-align">
-			<li>Created a new way to test a patient's visual acuity, pupillary reflex and eye movement using the latest web technologies.</li>
-			<li>Created and deployed a telemedicine web application using JavaScript, HTML, and CSS to create the user interface and visual exams, along with PHP to connect to a MySql database.</li>
-		</ul>
+          <li>
+            A Web App that tests a user's Visual Acuity on each eye and presents
+            a vision rating of up to 20/20.
+          </li>
+          <li>Languages: JavaScript, HTML, CSS</li>
+        </ul>
+        <p class="left-align right">February 2017 - January 2018</p>
+        <p class="bold left-align">Ultimate Arcade</p>
+        <ul class="pad-left-50 left-align">
+          <li>
+            The ultimate arcade that emulates playing all the best consoles from
+            1985 through present day, and provides beautiful game artwork all
+            categorized by consoles and all their respective games.
+          </li>
+          <li>Languages: java</li>
+          <li>
+            Frameworks/Libraries: all open source emulators for consoles,
+            Hyperspin for UI
+          </li>
+          <li>
+            Hardware: internal office computer, joysticks, buttons, speakers,
+            plywood enclosure
+          </li>
+        </ul>
+      </div>
+    </section>
 
-		<!-- Independent Projects -->
-		<h5 class="left-align">Independent Projects</h5>
-		<hr>
-		<p class="left-align right">January 2020 - Present</p>
-		<p class="bold left-align">Vehicle Recognition Automatic Garage Opener</a></p>
-		<ul class="pad-left-50 left-align">
-			<li>Rasberry Pi driven vehicle recognition that verifies your license plate and other programmed verifications to trigger your garage door to open</li>
-			<li>Languages: Python, Node-Red</li>
-			<li>Frameworks/Libraries: OpenALPR</li>
-		</ul>
-		<p class="left-align right">November 2019 - January 2020</p>
-		<p class="bold left-align">Highly Advanced Car Alarm for 90's Vehicle</a></p>
-		<ul class="pad-left-50 left-align">
-			<li>Installed a fully functional car alarm in a 1992 Nissan 240sx that has passive keyless entry, push button start, remote start, and illegal door opening</li>
-			<li>Hardware: Uninterruptible 12v Source, 5 pin Circuit Relays, PKE Sensors, Shock Sensors, Siren, Control Module</li>
-		</ul>
-		<p class="left-align right">August 2019 - December 2019</p>
-		<p class="bold left-align">Visual Acuity Web App</a></p>
-		<ul class="pad-left-50 left-align">
-			<li>A Web App that tests a user's Visual Acuity on each eye and presents a vision rating of up to 20/20 </li>
-			<li>Languages: JavaScript, HTML, CSS</li>
-		</ul>
-		<p class="left-align right">February 2017 - January 2018</p>
-		<p class="bold left-align">Ultimate Arcade</a></p>
-		<ul class="pad-left-50 left-align">
-			<li>The ultimate arcade that emulates playing all the best consoles from 1985 through present day, and provides beautiful game artwork all categorized by consoles and all their respective games</li>
-			<li>Languages: java</li>
-			<li>Frameworks/Libraries: all open source emulators for consoles, Hyperspin for UI</li>
-			<li>Hardware: internal office computer, joysticks, buttons, speakers, plywood enclosure</li>
-		</ul>
-
-
-	</div>
-</section>
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-
-</body>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  </body>
 </html>
