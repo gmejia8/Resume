@@ -1,9 +1,5 @@
 {
-    "spellright.language": "english",
-    "spellright.documentTypes": [
-        "markdown",
-        "latex",
-        "plaintext",
-        "html"
-    ]
+  "spellright.language": "english",
+  "spellright.documentTypes": ["markdown", "latex", "plaintext", "html"],
+  "livePreview.defaultPreviewPath": "/index.html"
 }
