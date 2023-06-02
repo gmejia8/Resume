@@ -1,5 +1,7 @@
 {
   "spellright.language": "english",
   "spellright.documentTypes": ["markdown", "latex", "plaintext", "html"],
-  "livePreview.defaultPreviewPath": "/index.html"
+  "livePreview.defaultPreviewPath": "/index.html",
+  "editor.defaultFormatter": "vscode.html-language-features",
+  "editor.formatOnSave": true
 }
