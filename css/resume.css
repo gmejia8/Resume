@@ -1,218 +1,245 @@
-/*Materialize Overides*/
-.red-text {
-  color: #F44336;
-}
-.red {
-  background-color: #F44336;
-}
-.blue-text{
-  color: #2196F3;
-}
-.blue{
-  background-color: #2196F3;
-}
-
 /*Helper Classes*/
-.bold{
-	font-weight: 600;
+.bold {
+  font-weight: 600;
 }
-.regular{
-	font-weight: 400;
+.regular {
+  font-weight: 400;
 }
-.navy-text{
-	color: #445867;
+.navy-text {
+  color: #445867;
 }
-.navy{
-	background-color: #445867;
+.navy {
+  background-color: #445867;
 }
-.lato{
-	font-family: 'Lato', sans-serif;
+.lato {
+  font-family: "Lato", sans-serif;
 }
-.raleway{
-	font-family: 'Raleway', sans-serif;
+.raleway {
+  font-family: "Raleway", sans-serif;
 }
-.pacifico{
-	font-family: 'Pacifico', sans-serif;
+.pacifico {
+  font-family: "Pacifico", sans-serif;
 }
-.pad-left-25{
-	padding-left: 25px;
+.pad-left-25 {
+  padding-left: 25px;
 }
-.pad-left-50{
-	padding-left: 50px;
+.pad-left-50 {
+  padding-left: 50px;
 }
-.pad-left-100{
-	padding-left: 100px;
+.pad-left-100 {
+  padding-left: 100px;
 }
-.pad-left-179{
-	padding-left: 179px;
+.pad-left-179 {
+  padding-left: 179px;
 }
-.margin-07-00{
-	margin: .7rem 0;
+.margin-07-00 {
+  margin: 0.7rem 0;
 }
-.show-on-med{
-	display: none;
+.show-on-med {
+  display: none;
 }
 
 /*Main Styles*/
-html{
-	font-size: 18px;
-}
-html.printerFriendly{
-    font-size: 12px;
+html.printerFriendly {
+  font-size: 12px;
 }
 
-body{
-	font-family: 'Lato', sans-serif;
-	color: #000
+body {
+  font-family: "Lato", sans-serif;
+  color: white;
+  background-color: black;
 }
 
-body a{
-	color: inherit;
-    text-decoration: none;
+body a {
+  color: inherit;
+  text-decoration: none;
 }
 
-body a:active, a:visited, a:link{
-	color: inherit;
+a:hover {
+  color: rgb(112, 255, 3);
+  background-color: transparent;
+  text-decoration: underline;
 }
 
-
-body section{
-	width: 95%;
-	height: auto;
-    margin: 0 auto 60px auto;
-    text-align: center;
+body section {
+  width: 95%;
+  height: auto;
+  margin: 0 auto 60px auto;
+  text-align: center;
 }
 
 body section.printerFriendly {
-    width: 612pt; 
-  	max-width: 612pt; 
-	height: 769pt;
-	max-height: 769pt;
-	margin: auto;
+  width: 612pt;
+  max-width: 612pt;
+  height: 769pt;
+  max-height: 769pt;
+  margin: auto;
 }
 
-body section div.container {
-	width: 90%;
-    max-width: 1400px !important;
+
+h5 {
+  font-size: 1.4rem;
+  margin: 1rem 0 -0.2rem 0;
 }
 
-body section div.container h2:first-of-type {
-	font-size: 3rem;
-	margin: 0px auto 15px auto;
+div#education h5 {
+  color: rgb(250, 17, 79);
+  font-size: 1.4rem;
+  margin: 1rem 0 -0.2rem 0;
 }
 
-body section div.container > h2 {
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+div#skills h5 {
+  color: rgb(112, 255, 3);
+  font-size: 1.4rem;
+  margin: 1rem 0 -0.2rem 0;
 }
 
-body section div.container > h4 {
-	font-size:2.92rem;
-	line-height:110%;
-	margin:1.5rem 0 .5rem 0
+div#experience h5 {
+  color: rgb(102, 212, 207);
+  font-size: 1.4rem;
+  margin: 1rem 0 -0.2rem 0;
 }
 
-body section div.container h5 {
-    font-size: 1.4rem;
-    margin: 1rem 0 -.2rem 0;
+div#projects h5 {
+  color: rgb(112, 255, 3);
+  font-size: 1.4rem;
+  margin: 1rem 0 -0.2rem 0;
 }
 
-body section div.container h6 {
-    margin-top: 0.45rem;
+p {
+  font-size: 1rem;
+  margin: 0rem auto;
 }
 
-body section div.container > p:first-of-type {
-	margin-top: -.5rem;
+div.container {
+  width: 90%;
+  max-width: 1400px !important;
 }
 
-body section div.container p {
-	font-size: 1rem;
-	margin: 0rem auto;
+div.container p img.github-icon {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
 }
 
-body section div.container p.right {
-	font-size: 1rem;
-	margin: 0rem auto 0rem auto;
+div.container p i.material-icons {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+  font-size: 1.2rem;
 }
 
-body section div.container p img.github-icon{
-	width: 1rem;
-	height: 1rem;
-	vertical-align: middle;
-	position: relative;
-	bottom: 1px;
+div#summary {
+  float: left;
+  background-color: inherit;
+  width: 72%;
 }
 
-body section div.container p i.material-icons{
-	vertical-align: middle;
-	position: relative;
-	bottom: 1px;
-	font-size: 1.2rem;
+div#logos {
+  float: left;
+  width: auto;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(56, 71, 67, 0.474);
 }
 
-body section div.container hr{
-	border: none;
-	background-color: #000;
-	height: 1px;
-	display: block;
-    background: transparent;
-    width: 100%;
-    border-top: solid 1px #aaa;
+div#contact {
+  float: right;
+  height: auto;
+  width: 27%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(56, 71, 67, 0.474);
 }
 
-body section div.container ul{
-	margin: 0rem auto;
+div#education {
+  clear: both;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(56, 71, 67, 0.474);
+}
+div#skills {
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(56, 71, 67, 0.474);
+}
+div#experience {
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(56, 71, 67, 0.474);
+}
+div#projects {
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(56, 71, 67, 0.474);
 }
 
-body section div.container ul li{
-	list-style-type: circle;
-	font-size: 1rem;
-	margin: 0rem auto;
+hr {
+  border: none;
+  background-color: white;
+  height: 1px;
+  display: block;
+  background: transparent;
+  width: 100%;
+  border-top: solid 1px #aaa;
 }
 
-body section div.container > div.row > div.col > p {
-    margin: 0;
+ul {
+  margin: 0rem auto;
 }
 
-@media only screen and (max-width: 1024px){
-    
-    html{
-       font-size: 15px; 
-    }    
-
-    h6 {
-        font-size: 1.1rem;
-    }
+ul li {
+  list-style-type: circle;
+  font-size: 1rem;
+  margin: 0rem auto;
 }
 
-@media only screen and (max-width: 890px){
-    
-    html{
-       font-size: 13px; 
-    }    
-   
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 1.1rem;
+  }
 }
 
-@media only screen and (max-width: 760px){    
-    
-    html{
-       font-size: 11px; 
-    }  
-    
-    body section{
-        width: 94%;
-    }
-    
+@media only screen and (max-width: 890px) {
+  html {
+    font-size: 13px;
+  }
 }
 
-@media only screen and (max-width: 630px){    
+@media only screen and (max-width: 760px) {
+  html {
+    font-size: 11px;
+  }
 
-    .hide-on-med{
-        display: none;
-    }
+  body section {
+    width: 94%;
+  }
+}
 
-    .show-on-med{
-        display: block;
-    }
-    
+@media only screen and (max-width: 630px) {
+  .hide-on-med {
+    display: none;
+  }
+
+  .show-on-med {
+    display: block;
+  }
 }
